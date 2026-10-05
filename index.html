@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative CFO & Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#creative-cfo" class="nav-link">Live Demo</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Professional Web Solutions</h1>
+            <p class="hero-subtitle">Crafting Beautiful Digital Experiences</p>
+            <p class="hero-description">Modern websites designed for businesses that demand excellence</p>
+            <a href="#projects" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-card card-1"></div>
+            <div class="floating-card card-2"></div>
+            <div class="floating-card card-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About This Portfolio</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to my professional portfolio. I specialize in creating elegant, responsive, and user-friendly websites that help businesses stand out in the digital landscape.</p>
+                    <p>With a focus on modern design principles and clean code, I deliver solutions that not only look exceptional but perform flawlessly across all devices.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">UI/UX</span>
+                        <span class="skill-tag">Modern Web Standards</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Creative CFO</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Creative CFO Website</h3>
+                        <p>A professional financial advisory website with modern design, responsive layout, and comprehensive service showcase.</p>
+                        <div class="project-tags">
+                            <span>Responsive Design</span>
+                            <span>Professional Layout</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <a href="#creative-cfo" class="project-link">View Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Business Solutions</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Business Solutions</h3>
+                        <p>Enterprise-level website designed for corporate clients with focus on professionalism and user engagement.</p>
+                        <div class="project-tags">
+                            <span>Enterprise</span>
+                            <span>Corporate Design</span>
+                            <span>SEO Optimized</span>
+                        </div>
+                        <a href="#" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">E-Commerce Platform</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-featured online store with intuitive navigation, product showcases, and seamless user experience.</p>
+                        <div class="project-tags">
+                            <span>E-Commerce</span>
+                            <span>Interactive</span>
+                            <span>Conversion Focused</span>
+                        </div>
+                        <a href="#" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Demo Section - Creative CFO -->
+    <section id="creative-cfo" class="live-demo">
+        <div class="container">
+            <h2 class="section-title">Live Project: Creative CFO</h2>
+            <p class="section-subtitle">Explore and assess this professional financial advisory website in real-time</p>
+            
+            <div class="demo-controls">
+                <button class="demo-btn active" data-view="desktop">
+                    <span class="icon">🖥️</span> Desktop
+                </button>
+                <button class="demo-btn" data-view="tablet">
+                    <span class="icon">📱</span> Tablet
+                </button>
+                <button class="demo-btn" data-view="mobile">
+                    <span class="icon">📲</span> Mobile
+                </button>
+                <a href="cfo.html" target="_blank" class="demo-btn external">
+                    <span class="icon">��</span> Open Fullscreen
+                </a>
+            </div>
+
+            <div class="demo-frame-container">
+                <div class="demo-frame desktop-frame" id="demo-frame">
+                    <iframe src="cfo.html" title="Creative CFO Website Demo"></iframe>
+                </div>
+            </div>
+
+            <div class="assessment-section">
+                <h3>Project Assessment Checklist</h3>
+                <div class="assessment-grid">
+                    <div class="assessment-item">
+                        <div class="assessment-check">✓</div>
+                        <div class="assessment-text">
+                            <h4>Responsive Design</h4>
+                            <p>Fully responsive layout adapts seamlessly to all screen sizes</p>
+                        </div>
+                    </div>
+                    <div class="assessment-item">
+                        <div class="assessment-check">✓</div>
+                        <div class="assessment-text">
+                            <h4>Professional Aesthetics</h4>
+                            <p>Modern, clean design with excellent visual hierarchy</p>
+                        </div>
+                    </div>
+                    <div class="assessment-item">
+                        <div class="assessment-check">✓</div>
+                        <div class="assessment-text">
+                            <h4>User Experience</h4>
+                            <p>Intuitive navigation and smooth user interactions</p>
+                        </div>
+                    </div>
+                    <div class="assessment-item">
+                        <div class="assessment-check">✓</div>
+                        <div class="assessment-text">
+                            <h4>Performance</h4>
+                            <p>Fast loading times and optimized code structure</p>
+                        </div>
+                    </div>
+                    <div class="assessment-item">
+                        <div class="assessment-check">✓</div>
+                        <div class="assessment-text">
+                            <h4>Accessibility</h4>
+                            <p>Semantic HTML and accessibility best practices implemented</p>
+                        </div>
+                    </div>
+                    <div class="assessment-item">
+                        <div class="assessment-check">✓</div>
+                        <div class="assessment-text">
+                            <h4>SEO Ready</h4>
+                            <p>Properly structured for search engine optimization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-details">
+                <h3>Project Details</h3>
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <h4>Client</h4>
+                        <p>Creative Financial Solutions</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Category</h4>
+                        <p>Professional Services</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Technologies</h4>
+                        <p>HTML5, CSS3, Responsive Design</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Year</h4>
+                        <p>2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Beautiful, modern designs that captivate your audience and represent your brand perfectly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Development</h3>
+                    <p>Mobile-first development ensuring perfect display on all devices and screen sizes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Optimization</h3>
+                    <p>Fast-loading websites optimized for speed and performance across all platforms.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO Optimization</h3>
+                    <p>Search engine optimized websites designed to rank well and attract organic traffic.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">♿</div>
+                    <h3>Accessibility</h3>
+                    <p>Inclusive design ensuring your website is accessible to all users.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Deployment & Support</h3>
+                    <p>Seamless deployment and ongoing support to keep your website running smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to bring your digital vision to life?</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:hello@portfolio.com">hello@portfolio.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Location</h4>
+                        <p>Available Worldwide</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Social</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Professional Portfolio. All rights reserved.</p>
+            <p>Designed with passion for excellence</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
